@@ -1,0 +1,747 @@
+.site-nav a{
+    text-decoration: none;
+    padding:20px;   
+    max-width: 1300px;
+    font-size: 20px;
+    color:#000;
+    font-family:Trebuchet MS;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+.site-nav{
+    text-align: center;
+}
+.site-nav a:hover{
+    background-color:rgb(252, 233, 236);
+}
+.main{
+    display: block;
+    position: relative;
+    max-width: 1290px;
+    heigh:auto;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.logo{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    left:300px;
+    top:80px;
+}
+.content p{
+    position:absolute;
+    left: 150px;
+    top: 200px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+}
+.slogan{
+    position: absolute;
+    padding-left: 25px;
+    left:150;
+    top: 300;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 136, 0)
+
+}
+.slogan2{
+    position: absolute;
+    padding:45px;
+    left:220;
+    top:325;
+    font-size: 25px;
+    color: rgb(255, 136, 0);
+    font-family: HoloLens MDL2 Assets;
+    font-weight: 300;
+    }
+.slogan3{
+    position: absolute;
+    padding-left: 40px;
+    top: 425;
+    left:210px;
+    font-size: 25px;
+    color:rgb(179, 170, 170)
+
+}
+.button a{
+    position: absolute;
+    padding:15px 15px;
+    top:500;
+    left:250;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(235, 99, 8);
+    color:#fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.button a:hover{
+    background-color: rgb(11, 167, 219);
+}
+.author{
+    position: absolute;
+    padding:10px;
+    top:600;
+    left:230;
+    font-size: 20px;
+    color:rgb(179, 170, 170);
+    text-align: center;
+    font-family: Trebuchet MS;   
+}
+
+/* why to do part */
+
+.why h1{
+    
+    margin-left:150px;
+    margin-top: 115px;
+    padding-bottom: 20px;
+    font-size:35px;
+    font-family:cinzel;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+.small-ul{
+    color:rgb(36, 34, 34);
+    display:inline-block;
+    position:relative;
+    
+  }
+  
+  .small-ul::after{
+    content:'';
+    height:4px;
+    width:20%;
+    background:#272625;
+    position:absolute;
+    left:calc(48% - 10%);
+    bottom: 5px;
+  }
+
+.why-info p{
+    
+    
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 135px;
+    margin-right:788px;
+    font-size: 18px;
+    font-family: cinzel;
+    font-weight: normal;
+}
+/*images part
+
+*/
+.img img{
+    
+    float: right;
+    
+    width:315px;
+    height:192px;
+    margin-right: 380px;
+    margin-top: -580px;
+    }
+.img-one img{
+    
+    float: right;
+    
+    width:315px;
+    height:192px;
+    margin-right: 380px;
+    margin-top: -385px;
+    }
+.img-two img{
+    float: right;
+    width:315px;
+    height:192px;
+    margin-right: 380px;
+    margin-top: -190;
+}
+.img-three img{
+    float: right;
+    width: 260px;
+    height: 170px;
+    margin-left: 400px;
+    margin-right: 116px;
+    margin-top: -582px;
+}
+.img-four img{
+    float: right;
+    width: 260px;
+    height: 170px;
+    margin-left: 400px;
+    margin-right: 116px;
+    margin-top: -409px;
+}
+.img-five img{
+    float: right;
+    width: 260px;
+    height: 234px;
+    margin-left: 400px;
+    margin-right: 116px;
+    margin-top: -235px;
+}
+hr{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    margin-right: 105px;
+    margin-left: 105px;
+}
+
+/* next section */
+
+.part-one h1{  
+    text-align: center;  
+    margin-left: 560px; 
+    margin-top: -20px;  
+    padding-bottom: 20px;
+    font-size:35px;
+    font-family:cinzel;
+    font-style: normal;
+    font-weight: normal;
+    color: grey;
+}
+.slogan-one p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    color: grey;
+    
+}
+.slogan2-two{
+    text-align: center;
+    margin-top: -15px;
+    color: rgb(189, 178, 178);
+    font-family: HoloLens MDL2 Assets;
+    
+}
+.slogan3-three{
+    text-align: center;
+    font-family: HoloLens MDL2 Assets;
+    font-size: 20px;
+    color: rgb(173, 167, 167);
+    font-style: italic;
+    margin-top: -10px;
+}
+.paragraph p{
+    line-height: 2;
+    font-family: HoloLens MDL2 Assets;
+    font-size: 21px;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.part-two{
+    max-width: 450px;
+    float: left;
+    text-align: justify;   
+    margin-left: 135px;
+    line-height: 1.5;
+    font-size:18px;
+}
+.heading{
+    
+    margin-left:190px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    font-size:15px;
+    font-family:cinzel;
+    font-weight: normal;
+
+}
+.underline{
+    color:rgb(36, 34, 34);
+    display:inline-block;
+    position:relative;
+    
+  }
+  
+  .underline::after{
+    content:'';
+    height:4px;
+    width:20%;
+    background:#272625;
+    position:absolute;
+    left:calc(48% - 10%);
+    bottom: -15px;
+  }
+.italic{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.highlight{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.righ-para p{
+    max-width: 600px;
+    margin-right: 40px;
+    margin-top: 20px;
+    line-height: 1.5 ;
+    text-align: justify;
+    font-size: large;
+    padding-bottom: 10px;
+
+
+    }
+.bold {
+    font-weight: bold;
+}
+
+.right-area{
+
+    float: right;
+    max-width: 450px;
+    margin-right: 135px;
+    margin-top:-90px;
+    padding-bottom: 10px;
+}
+.slogan4{
+    text-align: center;
+    color:rgb(54, 50, 50);
+    font-style: italic;
+    font-size: larger;
+    margin-top: -15px;
+
+}
+.submit  a {
+    padding:10px 10px;
+    top:500;
+    left:250;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(235, 99, 8);
+    color:#fff;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 40px;
+    
+
+}
+.submit a:hover{
+    background-color: rgb(11, 167, 219);
+}
+.hr hr{
+    margin-top: 400px;
+
+}
+/*What people say */
+
+.header h1{
+    font-size: 35px;
+    margin-left: 510px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+.operator {
+    margin-left: 105px;
+}
+.image-one img{
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:30px;
+    padding-bottom: 375px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-one p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-one p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+
+
+.image-four img{
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:30px;
+    padding-bottom: 375px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-two p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-two p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+
+.image-seven img{
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:30px;
+    padding-bottom: 375px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-three p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-three p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+/*row2 
+*/
+
+.operator-one{
+    max-width:400px ;
+   
+}
+
+.image-two img{
+    box-sizing: border-box;
+    margin-top: -2752px;
+    margin-left: 500px;
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:235px;
+    padding-bottom: 175px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-four p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -2100px;
+    margin-left: 525px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-four p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -2700px;
+    margin-left: 525px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+.image-five img{
+    box-sizing: border-box;
+    margin-top: -1835px;
+    margin-left: 500px;
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:205px;
+    padding-bottom: 205px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-five p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 525px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-five p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -1750px;
+    margin-left: 525px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+.image-eight img{
+    box-sizing: border-box;
+    margin-top: -917px;
+    margin-left: 500px;
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:245px;
+    padding-bottom: 165px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-six p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 580px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-six p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -880px;
+    margin-left: 525px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+
+/*operator 2 */
+
+.operator-two {
+    margin-left:900px;
+    margin-top: -2751;
+    float: right top;
+}
+.image-three img{
+
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:30px;
+    padding-bottom: 375px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-seven p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-seven p{
+    max-width: 250px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+.image-six img{
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:30px;
+    padding-bottom: 375px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-eight p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-eight p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+
+.image-nine img{
+    max-width: 350px;
+    border: 6px solid rgb(207, 197, 197);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:30px;
+    padding-bottom: 375px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.name-nine p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.intro-nine p{
+    max-width: 300px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 108, 108);
+}
+
+footer {
+    max-width: 100%;
+    padding-left: 105px;
+    padding-top: 20px;
+    background-color:  rgb(209, 210, 219);
+    line-height: 1.5;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+    }
+.support  a {
+        padding:10px 10px;
+        top:500;
+        left:250;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(235, 99, 8);
+        color:#fff;
+        text-decoration: none;
+        margin-top: 25px;
+        border-radius: 10px;
+        
+    
+    }
+.support a:hover{
+        background-color: rgb(11, 167, 219);
+    }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
